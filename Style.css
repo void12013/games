@@ -1,0 +1,52 @@
+body
+{
+ margin: 0;
+ padding: 0;
+ background-color: blue;
+}
+.feature-box
+{
+ width:95%;
+ display:flex;
+ text-align: center;
+ margin-bottom: 25px;
+ margin:auto;
+}
+.feature
+{
+ flex-basis: 70%;	
+}
+.feature-image
+{
+ flex-basis: 30%;
+}
+.feature span{
+ font-size: 30px;
+ color:skyblue;
+}
+.feature-icon .fa
+{
+  line-height: 50px;
+  border-radius: 8px;
+  border:1px solid skyblue;
+  width:50px;
+  height: 50px;
+}
+.description p
+{
+  font-size:20px;
+ color:skyblue:
+}
+.feature-image img
+{
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+h1
+{
+ color: skyblue;
+ text-align: center;
+ font-size: 30px;
+}
